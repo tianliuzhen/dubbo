@@ -14,7 +14,6 @@ import java.util.List;
  * @version 1.0 UserServiceImpl.java  2020/12/29 17:45
  */
 @DubboService
-@Component
 public class UserServiceImpl implements UserService {
     @Override
     public List<UserAddress> getUserAddress() {
